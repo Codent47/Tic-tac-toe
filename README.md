@@ -1,6 +1,11 @@
 # Tic-tac-toe
 The classic game has been modified such that the first person to play always wins such that he plays optimally
 
+The game uses minimax algorithm to find next optimal move for each player. The concept of game states (losing/winnning) is used after tie. If in a losing state, the player will tend to make that move which will increase the total number of moves of the game. In case of winning, the player will make a move which will lead to it's victory in least number of moves.
+
+Proof that first player always wins (given he plays optimally ahs been attached). To run the Game a makefile has been attached.
+Just place the make file and Game_Code.cpp in same folder and go to that folder through terminal and type command "make" (without double quotes) to run the program.
+
 Game Rules
 
 • Our game follows standard rules of Tic-Tac-Toe at the start.
